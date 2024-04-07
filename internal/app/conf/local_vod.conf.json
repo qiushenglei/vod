@@ -1,0 +1,23 @@
+{
+  "# doc of config": "https://pengrl.com/lal/#/ConfigBrief",
+  "conf_version": "v0.4.1",
+  "env": "local",
+  "domain": "127.0.0.1",
+  "port": 11111,
+  "source": 0,
+  "db1": {
+    "username": "root",
+    "password": "123456",
+    "host":  "127.0.0.1",
+    "port": 3306,
+    "dbname": "testdb",
+    "idle_conn": 6,
+    "open_conn":12,
+    "log_write_type": 1
+  },
+  "rd1": {
+    "address": "127.0.0.1:6379",
+    "DB": 0,
+    "password": "123456"
+  }
+}
